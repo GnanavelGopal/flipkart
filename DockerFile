@@ -1,0 +1,3 @@
+FROM eclipse-tumerin:17
+COPY target/flipkart.jar flipkart.jar
+CMD ["java","-jar","flipkart.jar"]
